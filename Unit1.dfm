@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 208
-  Top = 140
+  Left = 269
+  Top = 146
   Width = 371
   Height = 315
   Caption = 'Form1'
@@ -16,14 +16,16 @@ object Form1: TForm1
   object lbl1: TLabel
     Left = 152
     Top = 24
-    Width = 49
-    Height = 19
+    Width = 63
+    Height = 25
     Caption = 'Login '
-    Font.Charset = DEFAULT_CHARSET
+    Color = clWhite
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -16
+    Font.Height = -21
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
+    ParentColor = False
     ParentFont = False
   end
   object lbl2: TLabel
@@ -32,11 +34,13 @@ object Form1: TForm1
     Width = 95
     Height = 23
     Caption = 'Username'
+    Color = clWhite
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
+    ParentColor = False
     ParentFont = False
   end
   object lbl3: TLabel
@@ -45,11 +49,13 @@ object Form1: TForm1
     Width = 92
     Height = 23
     Caption = 'Password'
+    Color = clWhite
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
+    ParentColor = False
     ParentFont = False
   end
   object e_1: TEdit
