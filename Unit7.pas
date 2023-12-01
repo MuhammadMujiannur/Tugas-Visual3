@@ -28,7 +28,6 @@ type
     e_2: TEdit;
     e_3: TEdit;
     e_4: TEdit;
-    e_5: TEdit;
     e_6: TEdit;
     con1: TZConnection;
     zqry1: TZQuery;
@@ -36,7 +35,7 @@ type
     frxDBDataset1: TfrxDBDataset;
     frxReport1: TfrxReport;
     zqry2: TZQuery;
-    Edit1: TEdit;
+    e_7: TEdit;
   private
     { Private declarations }
   public

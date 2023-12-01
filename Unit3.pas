@@ -64,6 +64,7 @@ implementation
 
 procedure TForm3.b1Click(Sender: TObject);
 begin
+bersih;
 b1.Enabled:= false;
 b2.Enabled:= True;
 b3.Enabled:= False;
@@ -123,6 +124,7 @@ zqry1.SQL.Add('insert into karyawan values("'+e_1.Text+'","'+e_2.Text+'","'+e_3.
  zqry1.SQL.Add('select * from karyawan');
  zqry1.Open;
 ShowMessage('DATA BARHASIL DISIMPAN!');
+posisiawal;
 end;
 end;
 
@@ -135,6 +137,7 @@ end else
 if e_1.Text = zqry1.Fields[1].AsString then
 begin
  ShowMessage('DATA TIDAK ADA PERUBAHAN');
+ posisiawal;
 end else
 begin
  ShowMessage('DATA BERHASIL DIUPDATE!');
@@ -146,6 +149,7 @@ zqry1.SQL.Clear;
 zqry1.SQL.Add('select * from karyawan');
 zqry1.Open;
 
+posisiawal;
 end;
 end;
 
@@ -164,7 +168,7 @@ posisiawal;
 end else
 begin
  ShowMessage('DATA BATAL DIHAPUS');
-
+ posisiawal;
 end
 end;
 
@@ -175,6 +179,7 @@ end;
 
 procedure TForm3.posisiawal;
 begin
+bersih;
 b1.Enabled:= True;
 b2.Enabled:= False;
 b3.Enabled:= False;
@@ -207,21 +212,7 @@ end;
 
 procedure TForm3.FormShow(Sender: TObject);
 begin
-bersih;
-b1.Enabled:=true;
-b2.Enabled:=false;
-b3.Enabled:=false;
-b4.Enabled:=false;
-b5.Enabled:=false;
-b6.Enabled:=false;
-e_1.Enabled:= false;
-e_2.Enabled:= false;
-e_3.Enabled:= false;
-e_4.Enabled:= false;
-e_5.Enabled:= false;
-e_6.Enabled:= false;
-cbb1.Enabled:= false;
-
+posisiawal;
 end;
 
 procedure TForm3.dbgrd1CellClick(Column: TColumn);

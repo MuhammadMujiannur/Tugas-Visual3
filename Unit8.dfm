@@ -1,6 +1,6 @@
 object Form8: TForm8
-  Left = 192
-  Top = 125
+  Left = 205
+  Top = 134
   Width = 870
   Height = 450
   Caption = 'Form suplier'
@@ -207,36 +207,35 @@ object Form8: TForm8
   end
   object e_2: TEdit
     Left = 92
-    Top = 128
-    Width = 149
+    Top = 40
+    Width = 125
     Height = 21
     TabOrder = 8
   end
   object e_3: TEdit
-    Left = 96
-    Top = 160
-    Width = 205
+    Left = 88
+    Top = 88
+    Width = 129
     Height = 21
     TabOrder = 9
   end
   object e_4: TEdit
-    Left = 96
-    Top = 52
+    Left = 88
+    Top = 124
     Width = 113
     Height = 21
     TabOrder = 10
   end
   object e_5: TEdit
-    Left = 464
-    Top = 12
+    Left = 104
+    Top = 156
     Width = 205
     Height = 21
     TabOrder = 11
-    Text = 'e_5'
   end
   object e_6: TEdit
-    Left = 96
-    Top = 88
+    Left = 456
+    Top = 8
     Width = 113
     Height = 21
     TabOrder = 12

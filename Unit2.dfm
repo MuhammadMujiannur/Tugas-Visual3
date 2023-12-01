@@ -302,9 +302,11 @@ object Form2: TForm2
       end
       object formpembeli1: TMenuItem
         Caption = 'form pembeli'
+        OnClick = formpembeli1Click
       end
       object penjualan1: TMenuItem
         Caption = 'form penjualan '
+        OnClick = penjualan1Click
       end
       object formstokmotor1: TMenuItem
         Caption = 'form stok motor'

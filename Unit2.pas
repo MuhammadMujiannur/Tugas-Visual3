@@ -19,6 +19,8 @@ type
     formsuplier1: TMenuItem;
     procedure formkaryawan1Click(Sender: TObject);
     procedure form1Click(Sender: TObject);
+    procedure formpembeli1Click(Sender: TObject);
+    procedure penjualan1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,7 +32,7 @@ var
 
 implementation
 
-uses Unit3, Unit4;
+uses Unit3, Unit4, Unit5, Unit6;
 
 {$R *.dfm}
 
@@ -42,6 +44,16 @@ end;
 procedure TForm2.form1Click(Sender: TObject);
 begin
 form4.show;
+end;
+
+procedure TForm2.formpembeli1Click(Sender: TObject);
+begin
+  form5.show;
+end;
+
+procedure TForm2.penjualan1Click(Sender: TObject);
+begin
+form6.show;
 end;
 
 end.

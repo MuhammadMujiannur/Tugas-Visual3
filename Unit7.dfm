@@ -212,55 +212,53 @@ object Form7: TForm7
     TabOrder = 6
   end
   object e_1: TEdit
-    Left = 96
+    Left = 88
     Top = 8
     Width = 113
     Height = 21
     TabOrder = 7
   end
   object e_2: TEdit
-    Left = 92
-    Top = 128
+    Left = 84
+    Top = 40
     Width = 149
     Height = 21
     TabOrder = 8
   end
   object e_3: TEdit
-    Left = 96
-    Top = 160
-    Width = 205
+    Left = 80
+    Top = 80
+    Width = 153
     Height = 21
     TabOrder = 9
   end
   object e_4: TEdit
-    Left = 96
-    Top = 52
+    Left = 80
+    Top = 116
     Width = 113
     Height = 21
     TabOrder = 10
   end
-  object e_5: TEdit
-    Left = 376
-    Top = 12
-    Width = 205
+  object TEdit
+    Left = 80
+    Top = 156
+    Width = 145
     Height = 21
     TabOrder = 11
-    Text = 'e_5'
   end
   object e_6: TEdit
-    Left = 96
-    Top = 88
+    Left = 376
+    Top = 8
     Width = 113
     Height = 21
     TabOrder = 12
   end
-  object Edit1: TEdit
+  object e_7: TEdit
     Left = 488
     Top = 52
     Width = 205
     Height = 21
     TabOrder = 13
-    Text = 'e_5'
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
