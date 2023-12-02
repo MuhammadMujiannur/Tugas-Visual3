@@ -17,10 +17,14 @@ type
     penjualan1: TMenuItem;
     formstokmotor1: TMenuItem;
     formsuplier1: TMenuItem;
+    LOGOUT1: TMenuItem;
     procedure formkaryawan1Click(Sender: TObject);
     procedure form1Click(Sender: TObject);
     procedure formpembeli1Click(Sender: TObject);
     procedure penjualan1Click(Sender: TObject);
+    procedure formstokmotor1Click(Sender: TObject);
+    procedure formsuplier1Click(Sender: TObject);
+    procedure LOGOUT1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -32,7 +36,7 @@ var
 
 implementation
 
-uses Unit3, Unit4, Unit5, Unit6;
+uses Unit3, Unit4, Unit5, Unit6, Unit7, Unit8;
 
 {$R *.dfm}
 
@@ -54,6 +58,25 @@ end;
 procedure TForm2.penjualan1Click(Sender: TObject);
 begin
 form6.show;
+end;
+
+procedure TForm2.formstokmotor1Click(Sender: TObject);
+begin
+form7.show;
+end;
+
+procedure TForm2.formsuplier1Click(Sender: TObject);
+begin
+form8.show;
+end;
+
+procedure TForm2.LOGOUT1Click(Sender: TObject);
+begin
+if application.MessageBox('Yakin ingin logout?','Konfirmasi Ulang',MB_YesNo)=ID_Yes then
+begin
+Form2.Close;
+end;
+
 end;
 
 end.

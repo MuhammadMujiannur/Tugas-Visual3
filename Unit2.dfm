@@ -310,10 +310,16 @@ object Form2: TForm2
       end
       object formstokmotor1: TMenuItem
         Caption = 'form stok motor'
+        OnClick = formstokmotor1Click
       end
       object formsuplier1: TMenuItem
         Caption = 'form suplier'
+        OnClick = formsuplier1Click
       end
+    end
+    object LOGOUT1: TMenuItem
+      Caption = 'LOGOUT'
+      OnClick = LOGOUT1Click
     end
   end
 end
